@@ -1,5 +1,10 @@
-name: Terraform Apply
-on: [push]
+name: "Terraform"
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
 jobs:
   terraform_apply:
     runs-on: ubuntu-latest
