@@ -5,7 +5,6 @@ terraform {
       version = "3.68.0"
     }
   }
-  
   cloud {
     organization = "world-hello"
 
