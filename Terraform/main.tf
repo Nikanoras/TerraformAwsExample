@@ -5,6 +5,14 @@ terraform {
       version = "3.68.0"
     }
   }
+  
+  cloud {
+    organization = "world-hello"
+
+    workspaces {
+      name = "aws-terraform"
+    }
+  }
 }
 
 provider "aws" {
